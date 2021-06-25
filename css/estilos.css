@@ -11,16 +11,11 @@ a{
 }
 header{
     background-color: #222222;
-    margin: 0px;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
 }
-.header_container{
+.header_h1{
     display: flex;
     align-content: center;
-    margin: 10px;
+    /*margin: 10px;*/
     font-size: 24px;
 }
 .pizza{
@@ -38,6 +33,7 @@ header{
     font-size: 24px;
     font-weight: bold;
     color: #FC200C;
+    
 }
 nav{
     color: #F3F3F3;
@@ -47,8 +43,10 @@ nav{
 .navegador{
     display: flex;
     justify-content: flex-end;
-    flex-wrap: wrap;
+    flex-wrap: wrap;  
+     
 }
+
 body{
     background-color: #E5E5E5;  
 }
@@ -56,6 +54,8 @@ body{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-bottom: 10%;
+    padding-top: 10%;
 }
 .rojo{
     font-weight: 700;
@@ -70,7 +70,8 @@ body{
 .sec-delivery{
     display: flex;
     justify-items: flex-start;
-    flex-wrap: wrap;    
+    flex-wrap: wrap; 
+    max-width: 45%;   
 }
 .p-delivery{
    margin-left: -450px;
@@ -82,6 +83,7 @@ body{
     flex-wrap: wrap;
     background-color: #FFFFFF;
     border-radius: 5px;
+    max-width: 45%;
 }
 .podio-cont{
     display: flex;
@@ -107,7 +109,10 @@ body{
 }
 footer{
     background-color: #222222;
-    display: flex;    
+    display: flex;
+
+    bottom: 0px;
+    
     align-items: center;
     justify-content: space-between;
 }
