@@ -7,8 +7,8 @@
 a{
     text-decoration:none;
     color: #F3F3F3;
-
 }
+/*HEADER*/
 header{
     background-color: #222222;
 }
@@ -44,9 +44,9 @@ nav{
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;  
-     
+    padding: 2em; 
 }
-
+/*BODY*/
 body{
     background-color: #E5E5E5;  
 }
@@ -57,6 +57,7 @@ body{
     padding-bottom: 10%;
     padding-top: 10%;
 }
+/*primer parte con img delivery-mas text sobre img*/
 .rojo{
     font-weight: 700;
     font-size: 24px;
@@ -76,6 +77,7 @@ body{
 .p-delivery{
    margin-left: -450px;
 }
+/*segunda parte con top de pizzas*/
 .sec-podio{
     display: flex;
     flex-direction: column;
@@ -107,12 +109,11 @@ body{
 .img-podio{
 
 }
+/*FOOTER*/
 footer{
     background-color: #222222;
     display: flex;
-
-    bottom: 0px;
-    
+    bottom: 0px;    
     align-items: center;
     justify-content: space-between;
 }
